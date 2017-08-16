@@ -1,0 +1,175 @@
+/* Customized style in addition to bootstrap */
+
+/* Body styling*/
+
+body {
+  font: 15px Roboto 0.5;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover,
+a:active {
+  color: #ADEAE2;
+  background-color: rgba(256,256,256,0);
+}
+
+/* Side bar/nav styling */
+
+
+.sidebar {
+  height: 100%;
+  position: fixed;
+  padding: 10px 5px 10px 5px;
+  background-color: rgba(75,75,75,0.6);
+  box-shadow: 2px 2px 4px rgba(75,75,75,0.7);
+  z-index: 100;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color:#ffffff;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.section {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  padding: 15px 15px;
+  border-bottom: 1px solid rgba(100,100,100, 0.4);
+}
+
+.section-left {
+  border-left: 4px solid #DDF1EF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 30px;
+  margin-right: 0;
+  display: none;
+}
+
+
+/* Home Page with background Image styling */
+
+#home-page {
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  opacity: 0.9;
+  color: #FFFFFF;
+  border-bottom: 2px solid rgb(100,100,100);
+  box-shadow: 1px 1px 4px rgb(75,75,75);
+}
+
+.hometitle {
+  position: relative;
+  font-size: 1.3em;
+  top: 30%;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+/*Design for animated arrow. Use container to hold arrow*/
+.arrwContainer {
+    width: 200px;
+    height: 75px;
+    background: rgba(100,103,104,0);
+    position: absolute;
+    text-align: center;
+    left: calc(50% - 100px);
+    right: calc(50% - 100px);
+    bottom: 0;
+}
+
+/* Animation for arrow. Adust border width and adjust positioning to appear
+bouncing, taken from previous project. */
+@keyframes arrow {
+    0% {}
+    50% {border-left, border-bottom: solid rgb(252,252,248) 5px; width: 55px; height: 55px; top: -10px;}
+    100% {border-left, border-bottom: solid rgb(252,252,248) 3px; width: 50px; height: 50px; top: 0px;}
+}
+
+@-webkit-keyframes arrow {
+    0% {}
+    50% {border-left, border-bottom: solid rgb(252,252,248) 5px; width: 55px; height: 55px; top: -20px;}
+    100% {border-left, border-bottom: solid rgb(252,252,248) 3px; width: 50px; height: 50px; top: 0px;}
+}
+
+/* the arrow link. Simply border bottom and border left rotated 45 degrees
+  counter-clockwise */
+.arrow {
+    width: 50px;
+    height: 50px;
+    border-left: solid rgb(256,256,252) 5px;
+    border-bottom: solid rgb(256,256,252) 5px;
+    margin: 0 auto;
+    position: relative;
+    transform: rotate(-45deg);
+    animation-name: arrow;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    -webkit-animation-name: arrow;
+    -webkit-animation-duration: 1.8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0.5s;
+}
+
+.arrow:hover {
+  border-left: solid #ADEAE2 5px;
+  border-bottom: solid #ADEAE2 5px;
+}
+
+/* Main Page Starting - Overview */
+
+.profile {
+  width: 230px;
+  height: 230px;
+  margin: 10px 0px;
+  box-shadow: 1px 3px 3px rgba(50,50,50,0.8);
+}
+
+/* Styling that extends a container to be only 50% of its bounds. */
+.sm {
+  max-width: 40%;
+}
+
+/* Styling that extends a container to be only 70% of its bounds. */
+.med {
+  max-width: 70%;
+}
+
+.container {
+  margin: 20px auto;
+}
+
+.timeline-sec::before {
+  content: '';
+  position: relative;
+  right: 50px;
+  top: 15px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ADEAE2;
+  /*border: 1px solid #c1c1c1;*/
+  box-shadow: 1px 2px 2px rgba(100,100,100,0.6);
+}
+
+.skills span {
+  color: #9EE2DB;
+}
