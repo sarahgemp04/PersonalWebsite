@@ -51,16 +51,7 @@
 
     <div class="row section-left timeline-sec">
       <div class="col-md-4">
-        <img src="img/codepath.png"/>
-      </div>
-      <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-      </div>
-    </div>
-
-    <div class="row section-left timeline-sec">
-      <div class="col-md-4">
-        <img src="img/codepath.png"/>
+        <img src="img/eggshawaii.png"/>
       </div>
       <div class="col-md-8">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
@@ -127,12 +118,13 @@
       <div class="col-md-4"
            ng-repeat="i in [$index, $index + 1, $index + 2]"
            ng-if="projects[i] != null">
-           <div class="project-box">
-             <h4>{{projects[i].name}}</h4>
-             <div ng-repeat="tech in project.technologies">
-               <span class="label label-primary">{{tech}}</span>
-            </div>
-         </div>
+
+        <a class="no-style" href="#!/projects/{{i}}">
+          <div class="project-box" project-box>
+            <h4>{{projects[i].name}}</h4>
+            <span ng-repeat="tech in project.technologies" class="label label-default">{{tech}}</span>
+          </div>
+        </a>
 
       </div>
     </div>

@@ -37,17 +37,21 @@ a:active {
   font-weight: bold;
 }
 
+.content {
+  margin-right: 20px;
+
+}
+
 .section {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-right: 20px;
   padding: 15px 15px;
   border-bottom: 1px solid rgba(100,100,100, 0.4);
 }
 
 .section-left {
-  border-left: 4px solid #DDF1EF;
+  border-left: 4px solid #ADEAE2;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 30px;
@@ -171,19 +175,43 @@ bouncing, taken from previous project. */
 }
 
 .skills span {
-  color: #9EE2DB;
+  color: #7ed1c6;
 }
 
 
 .project-box {
   width: 100%;
+  position: relative;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 10px;
 }
 
-.project-box:hover {
-  background-color: #ADEAE2;
+.label-default {
+  margin: 4px 2px;
+  display: inline-block;
 }
 
-.project-box .label {
-  display: inline;
+.project-box h1 {
   margin: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 45%;
+  z-index: 3;
+  opacity: 100%;
+}
+
+.no-style {
+  color: black;
+}
+
+.no-style:hover,
+.no-style:active {
+  color: #2a2a2a;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-color: #CBF4EF;
+  margin-top: 20px;
 }

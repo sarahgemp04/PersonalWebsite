@@ -2,25 +2,15 @@
   "projects": [
     {
       "name": "itinerarMe",
-      "desc": "iOS app",
+      "desc": "iOS app. Group Project. Lots of stuff. nfdjks filler",
       "year": "2017",
       "technologies": [
         "Swift","Xcode","Git", "Google Places API", "Firebase"
       ],
       "media": [
-        "", "", ""
-      ]
-    },
-    {
-      "name": "TBD-Total Body Development",
-      "desc": "",
-      "year": "2016",
-      "technologies": [
-        "NodeJS","Express","HTML", "CSS", "Handlebars", "Bootstrap"
+        "img/projects/itinerarMe.mov"
       ],
-      "media": [
-        "", "", ""
-      ]
+      "link": ""
     },
     {
       "name": "Twitter App",
@@ -31,18 +21,8 @@
       ],
       "media": [
         "", "", ""
-      ]
-    },
-    {
-      "name": "Feaux Instagram",
-      "desc": "2017",
-      "year": "",
-      "technologies": [
-        "Swift","Xcode","MongoDB", "Heroku", "Parse"
       ],
-      "media": [
-        "", "", ""
-      ]
+      "link": ""
     },
     {
       "name": "Huffman Encoding Tree",
@@ -53,7 +33,44 @@
       ],
       "media": [
         "", "", ""
-      ]
+      ],
+      "link": ""
+    },
+    {
+      "name": "TBD-Total Body Development",
+      "desc": "",
+      "year": "2016",
+      "technologies": [
+        "NodeJS","Express","HTML", "CSS", "Handlebars", "Bootstrap"
+      ],
+      "media": [
+        "", "", ""
+      ],
+      "link": ""
+    },
+    {
+      "name": "Feaux Instagram",
+      "desc": "2017",
+      "year": "",
+      "technologies": [
+        "Swift","Xcode","MongoDB", "Heroku", "Parse"
+      ],
+      "media": [
+        "", "", ""
+      ],
+      "link": ""
+    },
+    {
+      "name": "Finding 'Communities' with Graphs",
+      "desc": "",
+      "year": "2017",
+      "technologies": [
+        "C++", "GDB", "Valgrind", "Vim","UNIX"
+      ],
+      "media": [
+        "", "", ""
+      ],
+      "link": ""
     }
   ]
 }
