@@ -8,7 +8,7 @@
         "Swift","Xcode","Git", "Google Places API", "Firebase"
       ],
       "media": [
-        "img/projects/itinerarMe.mov"
+        "img/projects/itinerarMe1.png", "img/projects/itinerarMe.mov", "img/projects/itinerarMe2.png","img/projects/itinerarMe3.png"
       ],
       "link": ""
     },
@@ -20,7 +20,7 @@
         "Swift","Twitter API","Xcode", "Git"
       ],
       "media": [
-        "", "", ""
+        "img/projects/Twitter.gif"
       ],
       "link": ""
     },
@@ -32,7 +32,7 @@
         "C++","Vim","GDB", "Valgrind"
       ],
       "media": [
-        "", "", ""
+        "img/projects/huffman1.png", "img/projects/huffman2.png"
       ],
       "link": ""
     },
@@ -44,7 +44,9 @@
         "NodeJS","Express","HTML", "CSS", "Handlebars", "Bootstrap"
       ],
       "media": [
-        "", "", ""
+        "img/projects/TBD1.JPG", "img/projects/TBD2.JPG",
+        "img/projects/TBD3.JPG"
+
       ],
       "link": ""
     },
@@ -56,7 +58,7 @@
         "Swift","Xcode","MongoDB", "Heroku", "Parse"
       ],
       "media": [
-        "", "", ""
+        "img/projects/Instagram.gif"
       ],
       "link": ""
     },
@@ -68,7 +70,8 @@
         "C++", "GDB", "Valgrind", "Vim","UNIX"
       ],
       "media": [
-        "", "", ""
+        "img/projects/graph1.png", "img/projects/graph2.png",
+        "img/projects/graph3.png"
       ],
       "link": ""
     }

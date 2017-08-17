@@ -192,13 +192,9 @@ bouncing, taken from previous project. */
   display: inline-block;
 }
 
-.project-box h1 {
-  margin: 0;
-  position: absolute;
-  bottom: 50%;
-  left: 45%;
-  z-index: 3;
-  opacity: 100%;
+.project-box img {
+  margin: 10px 5px;
+  max-width: 150px;
 }
 
 .no-style {
@@ -211,6 +207,8 @@ bouncing, taken from previous project. */
   text-decoration: none;
 }
 
+
+/* Individual project Project Page styling */
 .jumbotron {
   background-color: #CBF4EF;
   margin-top: 20px;
