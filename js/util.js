@@ -38,10 +38,26 @@
       console.log("Hello");
     });
   });
-  /* With ng-view, the initial view does not respond to document ready function. Use viewContentLoaded to set height of initial home image view. */
-    function HomeController($scope) {
-      $scope.$on('$viewContentLoaded', function() {
-          setHeight();
-          console.log("Hi");
+
+$(function() {
+  $( ".project-box" ).hover(
+    function() {
+      $( this ).append( $( "<h2><span></span></h2>" ) );
+      $( this ).find("span:last").addClass("glyphicon");
+      $( this ).find("span:last").addClass("glyphicon-eye-open");
+      $( this ).css({
+        "background-color": "ADEAE2",
+        "opacity": "0.7",
+        "box-shadow": "1px 1px 3px rgb(100,100,100)"
+      });
+
+    }, function() {
+      $( this ).find( "h2:last" ).remove();
+      $( this ).css({
+        "background-color": "white",
+        "opacity": "initial",
+        "box-shadow": "initial"
       });
     }
+  );
+});

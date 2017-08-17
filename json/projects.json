@@ -1,47 +1,59 @@
-[
-  {
-    "name": "",
-    "desc": "",
-    "year": "",
-    "technologies": "",
-    "media": [
-      "", "", ""
-    ]
-  },
-  {
-    "name": "",
-    "desc": "",
-    "year": "",
-    "technologies": "",
-    "media": [
-      "", "", ""
-    ]
-  },
-  {
-    "name": "",
-    "desc": "",
-    "year": "",
-    "technologies": "",
-    "media": [
-      "", "", ""
-    ]
-  },
-  {
-    "name": "",
-    "desc": "",
-    "year": "",
-    "technologies": "",
-    "media": [
-      "", "", ""
-    ]
-  },
-  {
-    "name": "",
-    "desc": "",
-    "year": "",
-    "technologies": "",
-    "media": [
-      "", "", ""
-    ]
-  }
-]
+{
+  "projects": [
+    {
+      "name": "itinerarMe",
+      "desc": "iOS app",
+      "year": "2017",
+      "technologies": [
+        "Swift","Xcode","Git", "Google Places API", "Firebase"
+      ],
+      "media": [
+        "", "", ""
+      ]
+    },
+    {
+      "name": "TBD-Total Body Development",
+      "desc": "",
+      "year": "2016",
+      "technologies": [
+        "NodeJS","Express","HTML", "CSS", "Handlebars", "Bootstrap"
+      ],
+      "media": [
+        "", "", ""
+      ]
+    },
+    {
+      "name": "Twitter App",
+      "desc": "",
+      "year": "2017",
+      "technologies": [
+        "Swift","Twitter API","Xcode", "Git"
+      ],
+      "media": [
+        "", "", ""
+      ]
+    },
+    {
+      "name": "Feaux Instagram",
+      "desc": "2017",
+      "year": "",
+      "technologies": [
+        "Swift","Xcode","MongoDB", "Heroku", "Parse"
+      ],
+      "media": [
+        "", "", ""
+      ]
+    },
+    {
+      "name": "Huffman Encoding Tree",
+      "desc": "",
+      "year": "2017",
+      "technologies": [
+        "C++","Vim","GDB", "Valgrind"
+      ],
+      "media": [
+        "", "", ""
+      ]
+    }
+  ]
+}

@@ -7,9 +7,9 @@ app.controller('HomeController', ['$scope', 'projects', '$routeParams', function
       setHeight();
       setMargin();
     });
-  /*
-  projects.success(function(data) {
-    $scope.detail = data;
-  });*/
+
+    projects.then(function(data) {
+      $scope.projects = data;
+    });
 
 }]);

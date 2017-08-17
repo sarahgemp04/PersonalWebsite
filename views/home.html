@@ -117,8 +117,34 @@
 </div>
 </div> <!-- End Skills -->
 
+<div id="Projects" class="container-fluid section">
+  <h1>Projects</h1>
+  <div class="container-fluid">
 
-</div> <!-- end content -->
+    <!-- Loop through projects 3 at a time, making rows of 3 columns until projects have been exhausted. -->
+    <div class="row" ng-repeat="project in projects track by $index" ng-if="$index % 3 == 0">
+
+      <div class="col-md-4"
+           ng-repeat="i in [$index, $index + 1, $index + 2]"
+           ng-if="projects[i] != null">
+           <div class="project-box">
+             <h4>{{projects[i].name}}</h4>
+             <div ng-repeat="tech in project.technologies">
+               <span class="label label-primary">{{tech}}</span>
+            </div>
+         </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+</div>  <!-- End Projects-->
+
+
+
+</div> <!-- End Content -->
 
 
 

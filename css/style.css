@@ -173,3 +173,17 @@ bouncing, taken from previous project. */
 .skills span {
   color: #9EE2DB;
 }
+
+
+.project-box {
+  width: 100%;
+}
+
+.project-box:hover {
+  background-color: #ADEAE2;
+}
+
+.project-box .label {
+  display: inline;
+  margin: 0;
+}
