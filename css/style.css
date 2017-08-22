@@ -12,7 +12,7 @@ a {
 
 a:hover,
 a:active {
-  color: #ADEAE2;
+  color:#3676b2;
   background-color: rgba(256,256,256,0);
 }
 
@@ -24,7 +24,9 @@ a:active {
   position: fixed;
   padding: 10px 5px 10px 5px;
   background-color: rgba(75,75,75,0.6);
-  box-shadow: 2px 2px 4px rgba(75,75,75,0.7);
+  box-shadow: inset -2px 2px 5px rgba(60,60,60,0.5);
+  -webkit-box-shadow: inset -2px 2px 5px rgba(60,60,60,0.5);
+  -moz-box-shadow: inset -2px 2px 5px rgba(60,60,60,0.5);
   z-index: 100;
 }
 
@@ -174,17 +176,32 @@ bouncing, taken from previous project. */
   box-shadow: 1px 2px 2px rgba(100,100,100,0.6);
 }
 
-.skills span {
-  color: #7ed1c6;
+
+/* Skills Section */
+
+.skill-sec {
+  margin: 15px 0px;
 }
 
+#Skills .label {
+  font-size: 16px;
+  margin: 10px 5px;
+  background-color: #FFFFFF;
+  color: rgb(75,75,75);
+  border: 1px solid #adeae2;
+  padding: 10px;
+  font-weight: normal;
+}
+
+.langs {
+  text-align: right;
+  font-size: 15px;
+}
 
 .project-box {
   width: 100%;
   position: relative;
-  border-radius: 3px;
   margin: 5px;
-  padding: 10px;
 }
 
 .label-default {
@@ -194,11 +211,12 @@ bouncing, taken from previous project. */
 
 .project-box img {
   margin: 10px 5px;
-  max-width: 150px;
+  max-width: 120px;
 }
 
 .no-style {
   color: black;
+  height: 100%;
 }
 
 .no-style:hover,
@@ -207,9 +225,68 @@ bouncing, taken from previous project. */
   text-decoration: none;
 }
 
+.project-box span {
+  margin-top: 10px;
+}
+
+#Projects .row h1 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 4em;
+}
+
+#Projects .row {
+  display: table;
+  width: 100%;
+  margin: 30px 0px;
+}
+
+#Projects .row .col-md-4 {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.carousel {
+  max-height: 350px;
+}
 
 /* Individual project Project Page styling */
 .jumbotron {
   background-color: #CBF4EF;
   margin-top: 20px;
+  box-shadow: 0px 2px 5px rgba(60,60,60,0.7);
+  -webkit-box-shadow: 0px 2px 5px rgba(60,60,60,0.7);
+  -moz-box-shadow: 0px 2px 5px rgba(60,60,60,0.7);
+}
+
+.jumbotron .label {
+  font-size: 1.1em;
+}
+
+.project-bullets {
+  margin: 20px auto;
+  border-top: 1px solid rgba(60,60,60,0.4);
+  padding: 20px 5px;
+  width: 75%;
+  font-size: 1.1em;
+}
+
+.project-bullets li {
+  line-height: 1.7;
+}
+
+
+/* If the browser window is smaller than 600px, make the columns stack on top of each other */
+@media only screen and (max-width: 800px) {
+  #Projects .row {
+    display: initial;
+  }
+
+  #Projects .row .col-md-4 {
+    display: initial;
+  }
 }

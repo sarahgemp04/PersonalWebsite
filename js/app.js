@@ -1,5 +1,5 @@
 //Main app module.
-var app = angular.module('InteractiveCV', ['ngRoute']);
+var app = angular.module('InteractiveCV', ['ngRoute', 'ui.bootstrap']);
 
 app.config(function($routeProvider) {
   $routeProvider

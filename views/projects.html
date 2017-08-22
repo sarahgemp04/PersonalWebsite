@@ -1,7 +1,43 @@
 <div class="content container-fluid">
   <div class="jumbotron jumbotron-fluid">
     <h1 class="display-3">{{project.name}}</h1>
-    <p class="lead">{{project.desc}}</p>
+    <h5 class="text-muted">{{project.date}}</h5>
+    <p class="lead" style="font-size:1.3em;">{{project.desc}}</p>
+
     <span ng-repeat="tech in project.technologies" class="label label-default">{{tech}}</span>
+    <h4 ng-if="id == 2 || id == 5">
+      <a style="color:#3676b2;" href="#!/projects/{{id}}">{{project.link}}</a>
+    </h4>
+    <h4 ng-if="id == 0 || id==1 || id==3 || id==4">
+      <a style="color:#3676b2;" href="{{project.link}}">View Project</a>
+      <span class="glyphicon glyphicon-hand-left" aria-hidden="true " style="display:inline;margin-left:10px;"></span>
+    </h4>
+
   </div>
+
+  <!-- Carousel for images -->
+  <div class="row">
+
+  <div ng-controller="CarouselController">
+
+  <div class="container med">
+
+    <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+      <div uib-slide ng-repeat="img in project.media track by $index" index="$index">
+        <img ng-src="{{img}}" style="margin:auto;max-height: 350px;">
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- Bullet description of project. -->
+  </div>
+  <div class="row">
+    <div class="container project-bullets">
+      <ul>
+        <li ng-repeat="bullet in project.bullets">{{bullet}}</li>
+      </ul>
+    </div>
+  </div>
+
 </div>

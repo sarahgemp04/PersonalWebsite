@@ -1,0 +1,61 @@
+{
+  "languages": [
+    {
+      "lang": "Java",
+      "level": "100",
+      "desc": "2+ years, Class/Projects, Very Comfortable Coding"
+    },
+    {
+      "lang": "C",
+      "level": "100",
+      "desc": "2+ years, Class/Projects, Very Comfortable Coding"
+    },
+    {
+      "lang": "C++",
+      "level": "100",
+      "desc": "2+ years, Class/Projects, Very Comfortable Coding"
+    },
+    {
+      "lang": "HTML",
+      "level": "100",
+      "desc": "2+ years, Class/Projects, Very Comfortable Coding"
+    },
+    {
+      "lang": "Swift",
+      "level": "80",
+      "desc": "1+ year, Bootcamp, Comfortable Coding"
+    },
+    {
+      "lang": "CSS",
+      "level": "80",
+      "desc": "1+ year, Comfortable Coding"
+
+    },
+    {
+      "lang": "JavaScript",
+      "level": "60",
+      "desc": "1+ year, Basic Knowledge"
+    },
+    {
+      "lang": "Bluespec Verilog",
+      "level": "60",
+      "desc": "1+ year, Class Taught, Basic Knowledge"
+
+    },
+    {
+      "lang": "Assembly (SPARC)",
+      "level": "60",
+      "desc": "1+ year, Class Taught, Basic Knowledge"
+    },
+    {
+      "lang": "Spanish",
+      "level": "40",
+      "desc": ""
+    },
+    {
+      "lang": "German",
+      "level": "40",
+      "desc": ""
+    }
+  ]
+}

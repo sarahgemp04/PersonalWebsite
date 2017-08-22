@@ -9,8 +9,8 @@ app.controller('ProjectController', ['$scope', 'projects', '$routeParams', funct
   });
 
   projects.then(function(data) {
-    console.log($routeParams.id);
     $scope.project = data[$routeParams.id];
+    $scope.id = $routeParams.id;
   });
 
 }]);

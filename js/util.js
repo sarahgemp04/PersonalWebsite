@@ -25,7 +25,6 @@
   $(window).on('scroll', function(){
 	$('.section-left').each(function(){
 		if( $(this).offset().top <= $(window).scrollTop()-$(window).height()*0.6) {
-      console.log("hey");
       $(this).fadeIn(2000);
 		}
 	});
@@ -38,3 +37,27 @@
       console.log("Hello");
     });
   });
+
+
+  /*Function to give links a smooth scroll effect.*/
+
+$(function() {
+        $('.sidebar a').bind('click',function(event){
+            var $anchor = $(this);
+
+            $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+            }, 800,'jswing');
+
+            event.preventDefault();
+            });
+        $('.arrwContainer a').bind('click',function(event){
+            var $anchor = $(this);
+
+            $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+            }, 800,'jswing');
+
+            event.preventDefault();
+            });
+});

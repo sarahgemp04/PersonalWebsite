@@ -1,6 +1,6 @@
 /* Attribute Directive used to add hover effect to individual project boxes. */
 
-app.directive("projectBox", function() {
+app.directive("projectCol", function() {
     return {
         restrict: "A",
         link: function(scope, elem, attrs) {
@@ -8,11 +8,11 @@ app.directive("projectBox", function() {
             function() {
               $( elem ).append( $( "<h1><span></span></h1>" ) );
               $( elem ).find("span:last").addClass("glyphicon");
-              $( elem ).find("span:last").addClass("glyphicon-eye-open");
+              $( elem ).find("span:last").addClass("glyphicon-zoom-in");
               $( elem ).css({
                 "background-color": "#ADEAE2",
                 "opacity": "0.7",
-                "box-shadow": "1px 1px 2px rgb(100,100,100)"
+                "border": "1px solid rgb(75,75,75)"
               });
 
             }, function() {
@@ -20,7 +20,7 @@ app.directive("projectBox", function() {
               $( elem ).css({
                 "background-color": "white",
                 "opacity": "initial",
-                "box-shadow": "initial"
+                "border": "none"
               });
             }
           );

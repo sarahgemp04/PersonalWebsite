@@ -17,10 +17,13 @@
     <!-- Include the AngularJS routing library -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 
-    <!-- CDN for Angular filter to chunk projects by rows of 3 columns in Home View.-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.16/angular-filter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js"></script>
 
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+
+    <script src="js/easing.js"></script>
     <script src="js/util.js"></script>
+
 
     <!-- typewriter effect for home page. src: typed.js, code can be found on Github https://github.com/mattboldt/typed.js/-->
     <script>
@@ -44,7 +47,7 @@
           <li class="nav-item"><a href="#Miscellaneous">Miscellaneous</a><li>
           <li class="nav-item"><a href="#Resume">Resume (PDF)</a><li>
         </ul>
-        
+
 
       </div>
 
@@ -58,9 +61,14 @@
     <!-- Controllers -->
     <script src="js/controllers/HomeController.js"></script>
     <script src="js/controllers/ProjectController.js"></script>
+    <script src="js/controllers/CarouselController.js"></script>
+
 
     <!-- Services -->
     <script src="js/services/projects.js"></script>
+    <script src="js/services/languages.js"></script>
+    <script src="js/services/tools.js"></script>
+
 
     <!-- Directives -->
     <script src="js/directives/projectbox.js"></script>

@@ -1,0 +1,19 @@
+{
+  "tools": [
+    "XCode",
+    "CocoaPods",
+    "AngularJS",
+    "NodeJS",
+    "Express",
+    "Handlebars",
+    "JQuery",
+    "GDB/JDB/Valgrind",
+    "MongoDB",
+    "Firebase",
+    "OAuth",
+    "API's",
+    "Heroku",
+    "MacOS",
+    "UNIX CommandLine"
+  ]
+}

@@ -2,44 +2,75 @@
   "projects": [
     {
       "name": "itinerarMe",
-      "desc": "iOS app. Group Project. Lots of stuff. nfdjks filler",
-      "year": "2017",
+      "desc": "This iOS application aims to defeat the questions: 'Where should we go to eat? What should we do today?', by feeding you high-rated options according to Google Places. You swipe. We create.",
+      "bullets": [
+        "Members: Daniel Ku, Vicky Tang, Timothy Mak, Me",
+        "Developed during Codepath University iOS Bootcamp. Final Group project to a course where students and TA's grinded out 10 apps in a Semester time-period.",
+        "Allows users to login via Facebook or Sign up utilizing Firebase for our backend database.",
+        "Users can 'swipe right', or 'swipe left' with implemented animations on gesture recognition",
+        "Users offered selections pulled straight from Google Places API that fit their initial filters.",
+        "User can then chronologically order their chosen restaurants/activities in a clean and navigable interface, and save to 'their itineraries.'"
+      ],
+      "year": "April 2017",
       "technologies": [
-        "Swift","Xcode","Git", "Google Places API", "Firebase"
+        "Swift","Xcode","Git", "Google Places API", "Firebase", "OAuth", "CocoaPods"
       ],
       "media": [
-        "img/projects/itinerarMe1.png", "img/projects/itinerarMe.mov", "img/projects/itinerarMe2.png","img/projects/itinerarMe3.png"
+        "img/projects/ItinerarMeDemo.gif","img/projects/ItinerarMe2.png", "img/projects/ItinerarMeDemo2.gif", "img/projects/ItinerarMe3.png", "img/projects/ItinerarMeDemo3.gif"
       ],
-      "link": ""
+      "link": "https://bitbucket.org/itinerarme/itinerarme/overview"
     },
     {
       "name": "Twitter App",
-      "desc": "",
-      "year": "2017",
+      "desc": "A personal Twitter App made with Oauth and online Twitter API. Can view other's or your own account, timeline, and favorite and retweet tweets. Made in a 2 week span.",
+      "bullets": [
+        "Developed during Codepath University iOS Bootcamp. 2 Parts Project. 2 Weeks.",
+        "User is persisted upon app restarts",
+        "Tweet Details Page: User can tap on a tweet to view it, with controls to retweet, favorite, and reply.",
+        "Profile page:Contains the user header iamge. Contains a section with the users basic stats: # tweets, # following, # followers",
+        "Home Timeline: Tapping on a user image brings up that user's profile page",
+        "Compose Page: User can compose a new tweet by tapping on a compose button. Posts to their own actual account!"
+        ] ,
+      "year": "February 2017",
       "technologies": [
         "Swift","Twitter API","Xcode", "Git"
       ],
       "media": [
         "img/projects/Twitter.gif"
       ],
-      "link": ""
+      "link": "https://github.com/sarahgemp04/CPTwitter"
     },
     {
       "name": "Huffman Encoding Tree",
-      "desc": "",
-      "year": "2017",
+      "desc": "UCSD CSE 100- Advanced Data Structures Assignment. Allowed me to compress (in roughly 5 minutes), and uncompress (less than that) my 1GB folder of Coachella Sets, 100% untarnished using Huffman Encoding to maximize efficiency of character encodings.",
+      "bullets": [
+        "Coding Partner: Allison Reiss",
+        "Program developed in C++, utilizing Buffers, Bit input and output streams, and multiple data structures that greatly increased speed.",
+        "The encoding structure consists of two main parts: The header, and the value. The header describes the components of the original file, or in our case the structure of the tree that encodes characters.",
+        "The second part, contains the original components of the file, but encoded. Where a 32 bit ASCII character can now be expressed in as little as 1 bit (Best case).",
+        "Created multiple test cases in each developmental phase."
+      ],
+      "year": "May 2017",
       "technologies": [
-        "C++","Vim","GDB", "Valgrind"
+        "C++","Vim","GDB","Valgrind","Git", "UNIX Command tools"
       ],
       "media": [
         "img/projects/huffman1.png", "img/projects/huffman2.png"
       ],
-      "link": ""
+      "link": "No link due to Academic Integrity Reasons."
     },
     {
       "name": "TBD-Total Body Development",
-      "desc": "",
-      "year": "2016",
+      "desc": "A group project for a Human Computer Interaction, CSE class. We made a 'Learn how to fitness app,' while learning and implementing the critical phases in testing, and creating a human-usable and enjoyable web application. ",
+      "bullets": [
+        "Members: Sanika Moharana, Thomas Loh, Lam Pham, Me",
+        "Over the span of one quarter at UCSD, 10 weeks, we went through the design process, analyzed heuristics with both User testing, and our own testing, performed A/B testing, and rigorously designed/redesigned our app to meet its final product.",
+        "Data was streamed through local JSON files due to time constraint and class policy, and routing implemented using Express.",
+        "Front End developed using classic CSS and Bootstrap.",
+        "Main framework used was NodeJS- Provided speed and efficient implementation.",
+        "View on Github: https://github.com/sarahgemp04/TBDintroHCI"
+      ],
+      "year": "December 2016",
       "technologies": [
         "NodeJS","Express","HTML", "CSS", "Handlebars", "Bootstrap"
       ],
@@ -48,12 +79,13 @@
         "img/projects/TBD3.JPG"
 
       ],
-      "link": ""
+      "link": "https://a10-totalbodydevelopment.herokuapp.com/"
     },
     {
       "name": "Feaux Instagram",
-      "desc": "2017",
-      "year": "",
+      "desc": "",
+      "bullets": [""],
+      "year": "March 2017",
       "technologies": [
         "Swift","Xcode","MongoDB", "Heroku", "Parse"
       ],
@@ -65,7 +97,8 @@
     {
       "name": "Finding 'Communities' with Graphs",
       "desc": "",
-      "year": "2017",
+      "bullets": [""],
+      "year": "May 2017",
       "technologies": [
         "C++", "GDB", "Valgrind", "Vim","UNIX"
       ],
