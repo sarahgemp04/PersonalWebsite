@@ -2,58 +2,69 @@
   "languages": [
     {
       "lang": "Java",
+      "years": "3 yrs",
       "level": "100",
       "desc": "2+ years, Class/Projects, Very Comfortable Coding"
     },
     {
       "lang": "C",
+      "years": "2 yrs",
       "level": "100",
       "desc": "2+ years, Class/Projects, Very Comfortable Coding"
     },
     {
       "lang": "C++",
+      "years": "2 yrs",
       "level": "100",
       "desc": "2+ years, Class/Projects, Very Comfortable Coding"
     },
     {
       "lang": "HTML",
+      "years": "2 yrs",
       "level": "100",
       "desc": "2+ years, Class/Projects, Very Comfortable Coding"
     },
     {
       "lang": "Swift",
+      "years": "1 yr",
       "level": "80",
       "desc": "1+ year, Bootcamp, Comfortable Coding"
     },
     {
       "lang": "CSS",
+      "years": "1 yr",
       "level": "80",
       "desc": "1+ year, Comfortable Coding"
 
     },
     {
       "lang": "JavaScript",
+      "years": "1 yr",
       "level": "60",
       "desc": "1+ year, Basic Knowledge"
     },
     {
-      "lang": "Bluespec Verilog",
+      "lang": "Verilog",
+      "years": "1 yr",
       "level": "60",
       "desc": "1+ year, Class Taught, Basic Knowledge"
 
     },
     {
-      "lang": "Assembly (SPARC)",
+      "lang": "Assembly",
+      "years": "1 yr",
       "level": "60",
       "desc": "1+ year, Class Taught, Basic Knowledge"
     },
     {
       "lang": "Spanish",
+      "years": "",
       "level": "40",
       "desc": ""
     },
     {
       "lang": "German",
+      "years": "",
       "level": "40",
       "desc": ""
     }

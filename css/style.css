@@ -12,8 +12,12 @@ a {
 
 a:hover,
 a:active {
-  color:#3676b2;
+  color:#99CEC7;
   background-color: rgba(256,256,256,0);
+}
+
+.second-text {
+  color:#99CEC7;
 }
 
 /* Side bar/nav styling */
@@ -176,27 +180,52 @@ bouncing, taken from previous project. */
   box-shadow: 1px 2px 2px rgba(100,100,100,0.6);
 }
 
+/* Overview Section */
+
+.list-group-flush li{
+  padding: 7px 15px;
+}
+.card-img-top {
+  border-radius: 8px;
+  box-shadow: 1px 2px 3px rgba(70,70,70,0.8);
+}
 
 /* Skills Section */
 
-.skill-sec {
-  margin: 15px 0px;
+.lang-circ {
+   border-radius: 50%;
+   border: 2px solid rgba(75,75,75,0.7);
+   margin: 5px 5px;
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   text-align: center;
+}
+.lang-circ code {
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+  top: 40%;
+  color: #3676b2;
+  box-shadow: 1px 1px 2px rgba(75,75,75,0.5);
 }
 
-#Skills .label {
-  font-size: 16px;
-  margin: 10px 5px;
-  background-color: #FFFFFF;
-  color: rgb(75,75,75);
-  border: 1px solid #adeae2;
-  padding: 10px;
-  font-weight: normal;
+.toolname {
+  font-size: 1.1em;
+}
+.toolsec {
+  padding: 10px 10px;
+  margin: 5px 10px;
+}
+#Skills .glyphicon {
+  margin:0px 10px;
+  font-size:1.3em;
+  color:#adeae2;
+  text-shadow: 1px 2px 3px rgba(70,70,70,0.7);
 }
 
-.langs {
-  text-align: right;
-  font-size: 15px;
-}
+
+/* Projects Section */
 
 .project-box {
   width: 100%;
@@ -207,6 +236,10 @@ bouncing, taken from previous project. */
 .label-default {
   margin: 4px 2px;
   display: inline-block;
+}
+
+#Projects .glyphicon {
+  color: rgb(70,70,70);
 }
 
 .project-box img {
@@ -277,7 +310,9 @@ bouncing, taken from previous project. */
 
 .project-bullets li {
   line-height: 1.7;
+  margin: 5px 5px;
 }
+
 
 
 /* If the browser window is smaller than 600px, make the columns stack on top of each other */

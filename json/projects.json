@@ -21,6 +21,26 @@
       "link": "https://bitbucket.org/itinerarme/itinerarme/overview"
     },
     {
+      "name": "Fun with Graphs- Connecting Actors and finding 'Communities'",
+      "desc": "A lengthy project boasting use of countless Data Structures, fancy and FAST algorithms, and fun with Actors connecting with other actors. Ever wonder how many movies apart one actor is to another? Like Johnny Depp and 50 Cent? Johnny Depp was in Pirates of the Carribean with Keira Knightly, who was in a movie with whoever, who was in a movie with so and so, who was in a movie with 50 Cent. And so on..",
+      "bullets": ["Partner: Allison Reiss",
+        "A project split into 2 parts: Finding connections between Actors/Actresses based on movies in which they appeared and links to others from said movie, and an extension - finding 'communities,' or groupings, between datasets.",
+        "Finding Connections between actors from a dataset containing 50,000+ entries was implemented in 2 ways: Graph Implementation (weighted and unweighted) and a Disjoint Set Implementation. More information can be found in report found in link.",
+        "Sample Input and Output is shown in sample pictures above, connections on a dataset of 50,000+ can be found in seconds, using Hash Maps, Priority Queues, and Fast Search Algorithms such as Dijkstra's and BFS for our Graph, and similar data structures along with Path Compression and Union by Size for our Disjoint Set. An explanation of our implementation is found in Report.",
+        "Finding Communities between pairs of inputs was a challenge. Found online datasets for Social Network type data of 200,000+ pair entries. Loaded all entries into an undirected graph using similar implementation to Actor Connections. 'Communities' were then found based on how connected each individual node is to others- Similar to Facebook groups of friends who have many mutual friends.",
+        "Calculated 'Betweenness' of ALL edges in graph. (A lot of edges..): Run BFS on ALL nodes to get to every node in graph. The greater number of times an edge is traveled to get to other edges, the higher its betweenness. Intuitively this means this edge is a sort of bridge between nearby groups."
+      ],
+      "year": "May 2017",
+      "technologies": [
+        "C++", "GDB", "Valgrind", "Vim","UNIX", "Data Structures Knowledge"
+      ],
+      "media": [
+        "img/projects/betweenness.png", "img/projects/graphData1.png", "img/projects/graphData2.png",
+        "img/projects/graphData3.png", "img/projects/graphInput.png", "img/projects/graphOutput.png"
+      ],
+      "link": "GraphsReport.pdf"
+    },
+    {
       "name": "Twitter App",
       "desc": "A personal Twitter App made with Oauth and online Twitter API. Can view other's or your own account, timeline, and favorite and retweet tweets. Made in a 2 week span.",
       "bullets": [
@@ -46,6 +66,7 @@
       "bullets": [
         "Coding Partner: Allison Reiss",
         "Program developed in C++, utilizing Buffers, Bit input and output streams, and multiple data structures that greatly increased speed.",
+        "An overview explanation and example of how to build such a marvelous data structure, the Huffman Tree, is shown in link above.",
         "The encoding structure consists of two main parts: The header, and the value. The header describes the components of the original file, or in our case the structure of the tree that encodes characters.",
         "The second part, contains the original components of the file, but encoded. Where a 32 bit ASCII character can now be expressed in as little as 1 bit (Best case).",
         "Created multiple test cases in each developmental phase."
@@ -57,7 +78,7 @@
       "media": [
         "img/projects/huffman1.png", "img/projects/huffman2.png"
       ],
-      "link": "No link due to Academic Integrity Reasons."
+      "link": "HuffmanCheckpoing.pdf"
     },
     {
       "name": "TBD-Total Body Development",
@@ -83,8 +104,13 @@
     },
     {
       "name": "Feaux Instagram",
-      "desc": "",
-      "bullets": [""],
+      "desc": "Built 'Instagram' from Ground Up using Heroku's MongoDB Database, Post and Get functionality, and various CocoaPods and XCode tools.",
+      "bullets": ["User can sign up to create a new account using Parse authentication. Can also Log in or Log out.",
+        "The current signed in user is persisted across app restarts",
+        "User can take a photo, add a caption, and post it to 'Instagram' and see the last 20 posts on their feed with username and time created shown.",
+        "User can favorite/de-favorite a post, and 'like' count is incremented/decremented.",
+        " User can pull to refresh once a post is made to view the new insta post."
+      ],
       "year": "March 2017",
       "technologies": [
         "Swift","Xcode","MongoDB", "Heroku", "Parse"
@@ -92,21 +118,7 @@
       "media": [
         "img/projects/Instagram.gif"
       ],
-      "link": ""
-    },
-    {
-      "name": "Finding 'Communities' with Graphs",
-      "desc": "",
-      "bullets": [""],
-      "year": "May 2017",
-      "technologies": [
-        "C++", "GDB", "Valgrind", "Vim","UNIX"
-      ],
-      "media": [
-        "img/projects/graph1.png", "img/projects/graph2.png",
-        "img/projects/graph3.png"
-      ],
-      "link": ""
+      "link": "https://github.com/sarahgemp04/MyInstagram"
     }
   ]
 }

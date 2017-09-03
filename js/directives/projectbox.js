@@ -4,6 +4,10 @@ app.directive("projectCol", function() {
     return {
         restrict: "A",
         link: function(scope, elem, attrs) {
+          $( elem ).css({
+            "-webkit-transition": "background-color 0.5s, opacity 0.5s", /* Safari */
+            "transition": "background-color 0.5s, opacity 0.5s",
+          });
           $(elem).hover(
             function() {
               $( elem ).append( $( "<h1><span></span></h1>" ) );
@@ -12,7 +16,8 @@ app.directive("projectCol", function() {
               $( elem ).css({
                 "background-color": "#ADEAE2",
                 "opacity": "0.7",
-                "border": "1px solid rgb(75,75,75)"
+                "border": "1px solid rgb(75,75,75)",
+                "border-radius": "5px"
               });
 
             }, function() {

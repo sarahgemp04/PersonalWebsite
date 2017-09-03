@@ -1,19 +1,32 @@
 {
-  "tools": [
-    "XCode",
-    "CocoaPods",
+  "tools": {
+    "toolsAndTech": ["XCode",
+    "GDB/JDB/Valgrind",
     "AngularJS",
     "NodeJS",
     "Express",
     "Handlebars",
+    "Eclipse",
     "JQuery",
-    "GDB/JDB/Valgrind",
+    "CocoaPods",
+    "OAuthorization",
     "MongoDB",
     "Firebase",
-    "OAuth",
-    "API's",
-    "Heroku",
-    "MacOS",
-    "UNIX CommandLine"
+    "UNIX CommandLine",
+    "Developer Tools"
+  ],
+  "classes": [
+    "Computer Architecture and Systems Programming",
+    "Advanced Data Structures",
+    "Software Engineering",
+    "Calculus (Advanced Vector, Differential, Integral)",
+    "Human Computer Interaction Design and Web Programming",
+    "Computer Design Components and Digital Systems Design Lab",
+    "Business-Accounting, Marketing, Global and National Economics",
+    "Discrete Mathematics and Mathematical Reasoning",
+    "Theory of Computability",
+    "Cryptography",
+    "German"
   ]
+  }
 }

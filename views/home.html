@@ -17,27 +17,76 @@
 <div id="Overview" class="container-fluid section">
   <div class="container sm">
     <img class="img-circle profile" src="img/profileimg.jpg"/>
-    <blockquote><samp style="font-size: 13px;"> cout << "It is our choices that show who we truly are, far more than our abilities." << endl; </samp>
+    <blockquote><samp style="font-size: 13px;"> cout << "It is our choices that show what we truly are, far more than our abilities." << endl; </samp>
       <footer><cite title="Source Title">Albus Dumbledore</cite></footer>
     </blockquote>
   </div>
   <div class="container med">
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "</p>
+    <h2>University of California, San Diego</h2>
+    <p class="lead" style="font-size: 1.2em;"><em>UCSD third year undergrad, majoring in Mathematics-Computer Science, and minoring in Business. STEM advocate, and always up for a challenge-- physical or mental.</em></p>
   </div>
-</div> <!-- End Overview -->
+  <div class="row">
+    <div class="card col-md-6 container-fluid">
+
+      <img class="card-img-top" src="img/geisel.jpg" alt="Geisel Library">
+      <div class="card-block">
+        <h3 class="card-title">When Within Geisel (UCSD Library)</h3>
+        <h4 class="text-muted card-text second-text">Mathematics-Computer Science BS, Business Minor<br><br> GPA: 3.7 - Upper Div GPA: 3.8</h4>
+      </div>
+
+      <ul class="list-group list-group-flush" style="text-align:left;">
+        <li class="list-group-item" ng-repeat="class in tools.classes">{{class}}</li>
+      </ul>
+
+    </div>
+    <div class="card col-md-6 container-fluid">
+      <img class="card-img-top" src="img/GreenRiverUtah.jpg" alt="Geisel Library">
+      <div class="card-block">
+        <h3 class="card-title">When Without Geisel</h3>
+        <h4 class="text-muted card-text second-text">Activities, Clubs, and<br><br> Other Hobbies</h4>
+      </div>
+      <ul class="list-group list-group-flush" style="text-align:left;">
+        <li class="list-group-item"><b>Alternative Breaks:</b>
+          <ul class="list-unstyled">
+            <li>An on-campus Organization of 200+ students providing non-profit service to an endless number of children and adults around the globe.</li>
+          </ul>
+        </li>
+        <li class="list-group-item"><b>Software Development Studio@UCSD/App Developers@UCSD</b></li>
+          <li class="list-group-item"><b>Secretary</b> for <b>She's the First@UCSD</b>
+            <ul class="list-unstyled">
+              <li><a style="color:#99CEC7" href="https://shesthefirst.org/">A non-profit organization</a></li>
+              <li>Provides aid to women in low-income countries with the goal of a higher education.</li>
+            </ul>
+          </li>
+          <li class="list-group-item"><b>Find me: </b> At Beach. In Mountains/Nature. Handstanding Somewhere. Doing all of these while simultaneously listening to music.</li>
+          <li class="list-group-item"><b>Game of Thrones</b> - Currently reading these endless books by George RR Martin.</li>
+          <li class="list-group-item"><b>HackerRank: </b>To learn new languages/practice makes (closer to) perfect. Since "perfect" is more subjective.</li>
+        </ul>
+
+      </div>
+    </div>
+    </div> <!-- End Overview -->
 
 
 
 <div id="Experience" class="container-fluid section">
   <h1>Experience</h1>
 
-  <div class="container med">
+  <div class="container med" style="text-align: left;">
     <div class="row section-left timeline-sec">
       <div class="col-md-4">
         <img src="img/UCSDlogo.jpg"/>
       </div>
       <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        <h4>Computer Science Tutor - Data Structures</h4>
+        <h5 class="text-muted second-text">UCSD CSE Department
+          <span style="float:right;">Dec 2016-Present</span>
+        </h5>
+        <ul>
+          <li>Serve as a teaching aid for Professor Marina Langlois at UCSD, providing service to over 200 students.</li>
+          <li>Hold two office hours/week where I help students understand Data Structures concepts, and assist in debugging and implementing programs in C and Java.</li>
+          <li>Proctor midterms/finals. Grade programming assignments, providing useful critique.</li>
+        </ul>
       </div>
     </div>
 
@@ -46,16 +95,22 @@
         <img src="img/codepath.png"/>
       </div>
       <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-      </div>
-    </div>
+        <h4>Teaching Assistant and Organizer</h4>
+        <h5 class="text-muted second-text">Codepath University@UCSD
+          <span style="float:right;">Jan 2017-May 2017</span>
+        </h5>
+        <ul>
+          <li>iOS Bootcamp Teaching Assistant with 58 enrolled students.</li>
+          <li>Other TA's and I are concurrently enrolled students who had a desire for a greater experience.</li>
+          <li>Hold lectures/office hours once per week, provide in-class help.</li>
+          <li>Organize events and course logistics.</li>
+          <li>Remain 3 weeks ahead of course work throughout the 12 weeks.</li>
+          <li>Learn Deeper material as we are expected to teach what we learn as well.</li>
+        </ul>
 
-    <div class="row section-left timeline-sec">
-      <div class="col-md-4">
-        <img src="img/eggshawaii.png"/>
-      </div>
-      <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+
+
+
       </div>
     </div>
 
@@ -72,34 +127,41 @@
 </div>
 <div class="container-fluid">
 
-<div class="skill-sec">
-<h3>Languages</h3>
+<div class="skill-sec container-fluid">
 
-  <div class="row" ng-repeat="lang in languages">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Languages<span class="glyphicon glyphicon-console" aria-hidden="true"></span></h3>
 
-    <div class="col-md-3 langs lead"><p> {{ lang.lang }} </p></div>
 
-    <div class="col-md-7">
-      <div class="progress">
-        <div class="progress-bar bg-success" role="progressbar" style="width: {{lang.level}}%" aria-valuenow="{{lang.level}}" aria-valuemin="0" aria-valuemax="100">{{lang.desc}}</div>
+      <div class="lang-circ" ng-repeat="lang in languages">
+        <code>{{ lang.lang }}</code>
+      </div>
+      <p class="text-muted">{{ lang.years }}</p>
+    </div>
+
+    <div class="col-md-6" style="text-align: left;">
+      <h3>Tools and Technologies <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span></h3>
+      <div class="row toolsec">
+
+
+        <ul class="list-group">
+          <div class="col-md-6" ng-repeat="tool in tools.toolsAndTech track by $index" ng-if="$index <= tools.toolsAndTech.length">
+            <li class="toolname list-group-item lead">{{tool}}</li>
+          </div>
+          <div class="col-md-6 list-group" ng-if="$index > tools.toolsAndTech.length">
+            <li class="toolname list-group-item lead">{{tool}}</li>
+          </div>
+        </ul>
+
+
+
       </div>
     </div>
-
   </div>
-</div>
-
-<div class="skill-sec">
-  <h3>Tools and Technologies</h3>
-  <div class="row">
-    <div class="col-md-1"></div>
-    <div class="col-md-10">
-      <span ng-repeat="tool in tools" class="label label-default">{{tool}}</span>
-    </div>
-    <div class="col-md-1"></div>
-  </div>
-</div>
 
 </div>
+
 </div> <!-- End Skills -->
 
 <div id="Projects" class="container-fluid section">
