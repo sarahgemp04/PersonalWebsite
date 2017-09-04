@@ -19,7 +19,10 @@ app.directive("projectCol", function() {
                   "background-color": "#ADEAE2",
                   "opacity": "0.7",
                   "border": "1px solid rgb(75,75,75)",
-                  "border-radius": "5px"
+                  "border-radius": "5px",
+                  "box-shadow": "1px 2px 4px rgba(60,60,60,0.7)",
+                  "-webkit-box-shadow": "1px 2px 4px rgba(60,60,60,0.7)",
+                  "-moz-box-shadow": "1px 2px 4px rgba(60,60,60,0.7)"
                 });
               } else {
                 //do nothing.
@@ -32,7 +35,10 @@ app.directive("projectCol", function() {
                 $( elem ).css({
                   "background-color": "white",
                   "opacity": "initial",
-                  "border": "none"
+                  "border": "none",
+                  "box-shadow": "0px 0px 0px rgba(60,60,60,0.5)",
+                  "-webkit-box-shadow": "0px 0px 0px rgba(60,60,60,0.5)",
+                  "-moz-box-shadow": "0px 0px 0px rgba(60,60,60,0.5)"
                 });
               }
 

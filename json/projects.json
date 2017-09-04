@@ -119,6 +119,23 @@
         "img/projects/Instagram.gif"
       ],
       "link": "https://github.com/sarahgemp04/MyInstagram"
+    },
+    {
+      "name": "This Website",
+      "desc": "A from-scratch Angular JS Application utilizing directives, controllers and services, and ease of routing with this quick and efficient Framework. Wanted to give myself experience with Angular to learn of its simplicity and functionality.",
+      "bullets": [
+        "Worked on occasionally, 10 Hours total (roughly).",
+        "Utilize Angular's abstraction, directives, templating, and Data Binding to reduce code size, and routing to also reduce code size and make the site more functional and easily navigable.",
+        "Bootstrap modifications and use throughout the pages. Bootstrap provides simple and resonsive grid design, and a clean mockup that can be customized with additional CSS as desired."
+      ],
+      "year": "August 2017",
+      "technologies": [
+        "AngularJS", "HTML","CSS","Bootstrap", "Git", "JSON Data", "AngularRouting", "JavaScript", "JQuery"
+      ],
+      "media": [
+        ""
+      ],
+      "link": "https://github.com/sarahgemp04/MyInstagram"
     }
   ]
 }
