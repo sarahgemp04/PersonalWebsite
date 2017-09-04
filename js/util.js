@@ -8,15 +8,13 @@
 
   function setMargin() {
 
-    if($(window).width() <= 500) {
-      //do nothing no need to set margin to sidebar size.
+    if($(window).width() <= 700) {
+      $('.content').css('margin-left', '5px');
     } else {
       sidebarWidth = $('.sidebar').css('width');
       addHeight = 10;
       $('.content').css('margin-left', sidebarWidth);
       $('.content').css( "margin-left", "+=20px" );
-      console.log(sidebarWidth);
-      console.log($('.content').css('margin-left'));
     }
 
   }
@@ -34,6 +32,7 @@
   $(document).ready(function() {
     $(window).resize(function() {
       setHeight();
+      setMargin();
       console.log("Hello");
     });
   });

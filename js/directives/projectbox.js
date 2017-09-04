@@ -10,23 +10,32 @@ app.directive("projectCol", function() {
           });
           $(elem).hover(
             function() {
-              $( elem ).append( $( "<h1><span></span></h1>" ) );
-              $( elem ).find("span:last").addClass("glyphicon");
-              $( elem ).find("span:last").addClass("glyphicon-zoom-in");
-              $( elem ).css({
-                "background-color": "#ADEAE2",
-                "opacity": "0.7",
-                "border": "1px solid rgb(75,75,75)",
-                "border-radius": "5px"
-              });
+              //Only add glyphicon and hover effects with desktop view.
+              if($(window).width() > 700) {
+                $( elem ).append( $( "<h1><span></span></h1>" ) );
+                $( elem ).find("span:last").addClass("glyphicon");
+                $( elem ).find("span:last").addClass("glyphicon-zoom-in");
+                $( elem ).css({
+                  "background-color": "#ADEAE2",
+                  "opacity": "0.7",
+                  "border": "1px solid rgb(75,75,75)",
+                  "border-radius": "5px"
+                });
+              } else {
+                //do nothing.
+              }
 
             }, function() {
-              $( elem ).find( "h1:last" ).remove();
-              $( elem ).css({
-                "background-color": "white",
-                "opacity": "initial",
-                "border": "none"
-              });
+              //Only remove glyphicon if added before (if screen width is large enough).
+              if($(window).width() > 700) {
+                $( elem ).find( "h1:last" ).remove();
+                $( elem ).css({
+                  "background-color": "white",
+                  "opacity": "initial",
+                  "border": "none"
+                });
+              }
+
             }
           );
         }
