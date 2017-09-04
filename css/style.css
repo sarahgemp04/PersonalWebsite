@@ -20,16 +20,22 @@ a:active {
   color:#99CEC7;
 }
 
+#HomeLink {
+  margin: 0;
+  padding: 0;
+}
+
 /* Side bar/nav styling */
 
 .dropdown {
   display: none;
   width: 100%;
   height: 60px;
-  background-color: rgba(75,75,75,0.6);
-  box-shadow: 2px 2px 3px rgba(60,60,60,0.8);
-  -webkit-box-shadow: 2px 2px 3px rgba(60,60,60,0.8);
-  -moz-box-shadow: 2px 2px 3px rgba(60,60,60,0.8);
+  background-color: rgba(75,75,75,0.9);
+  box-shadow: 2px 3px 4px rgba(60,60,60,0.6);
+  -webkit-box-shadow:  2px 3px 4px rgba(60,60,60,0.6);
+  -moz-box-shadow:  2px 3px 4px rgba(60,60,60,0.6);
+  border-bottom: 1px solid rgba(220,220,220,0.8);
   z-index: 100;
   margin: 0;
 }
@@ -69,23 +75,50 @@ a:active {
   width: 100%;
 }
 
+.dropdown-distinct {
+  text-align: left;
+  max-width: 90%;
+  margin: 5px auto;
+  background-color: #99CEC7;
+  border: 1px solid rgb(75,75,75);
+}
+
+.dropdown-distinct:active,
+.dropdown-distinct:hover {
+  background-color: rgba(220,220,220,0.7);
+  border: 1px solid rgb(75,75,75);
+}
+
 .dropdown-menu {
-  width: 100%;
+  /*width: 100%;*/
   margin:0;
   color: white;
-  background-color: rgba(75,75,75,0.6);
+  background-color: rgba(75,75,75,0.8);
   z-index: 100;
 }
 
 .dropdown-menu li a {
   color: white;
   padding: 6px 20px;
-  font-weight:
 }
 
 .dropdown-menu li a:hover,
 .dropdown-menu li a:active {
   color: #99CEC7;
+}
+
+.distinct-link {
+  position:fixed;
+  bottom:0px;
+  text-align: center;
+  margin: 10px 10px;
+  background-color: #99CEC7;
+  border: 1px solid rgb(75,75,75);
+}
+.distinct-link:active,
+.distinct-link:hover {
+  background-color: rgba(220,220,220,0.7);
+  border: 1px solid rgb(75,75,75);
 }
 
 .sidebar {
@@ -102,10 +135,6 @@ a:active {
 .nav>li>a:hover,
 .nav>li>a:focus {
     background-color:#ffffff;
-}
-
-.nav-item {
-  font-weight: bold;
 }
 
 .content {
@@ -132,6 +161,17 @@ a:active {
 
 /* Home Page with background Image styling */
 
+.home-page-back {
+  width: 100%;
+  background: url("../img/codebackground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
 #home-page {
   background: url("../img/background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -142,8 +182,11 @@ a:active {
   width: 100%;
   opacity: 0.9;
   color: #FFFFFF;
-  border-bottom: 2px solid rgb(100,100,100);
-  box-shadow: 1px 1px 4px rgb(75,75,75);
+  border-bottom: 1px solid rgba(100,100,100,0.7);
+  box-shadow: 1px 2px 4px rgba(75,75,75, 0.6);
+  -moz-box-shadow: 1px 2px 4px rgba(75,75,75, 0.6);
+  -webkit-box-shadow: 1px 2px 4px rgba(75,75,75, 0.6);
+
 }
 
 .hometitle {
@@ -293,6 +336,11 @@ bouncing, taken from previous project. */
 
 /* Projects Section */
 
+#Projects {
+  margin-bottom: 0px;
+  border-bottom: 0px solid black;
+}
+
 .project-box {
   width: 100%;
   position: relative;
@@ -379,7 +427,38 @@ bouncing, taken from previous project. */
   margin: 5px 5px;
 }
 
+.footer {
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+  background: url("../img/footer.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.7;
+  padding: 50px 0px;
+  box-shadow: inset -2px -2px 4px rgba(60,60,60,0.7);
+  -webkit-box-shadow: inset 2px 2px 4px rgba(60,60,60,0.7);
+  -moz-box-shadow: inset 2px 2px 4px rgba(60,60,60,0.7);
+}
 
+.footer li {
+  margin: 10px;
+}
+
+.footer samp {
+  display: inline;
+  color: white;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.btn-social-icon:hover {
+  box-shadow: 1px 2px 3px rgba(60,60,60,0.7);
+  -webkit-box-shadow: 1px 2px 3px rgba(60,60,60,0.7);
+  -moz-box-shadow: 1px 2px 3px rgba(60,60,60,0.7);
+}
 
 /* If the browser window is smaller than 800px, make the columns stack on top of each other */
 @media only screen and (max-width: 700px) {

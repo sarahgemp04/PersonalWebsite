@@ -4,8 +4,12 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-social.css">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -42,39 +46,40 @@
       <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
         <span class="glyphicon glyphicon-menu-hamburger"></span>
       </button>
-      <a class="homelink" href="#home-page">SARAHGEMP</a>
+      <a class="homelink" href="#HomeLink">SARAHGEMP</a>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
         <li><a href="#Overview">Overview</a></li>
         <li><a href="#Experience">Experience</a></li>
         <li><a href="#Skills">Skills</a></li>
         <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Miscellaneous">Miscellaneous</a></li>
         <li role="separator" class="divider"></li>
         <li><a href="#Resume">Resume</a></li>
+        <li><a class="btn dropdown-distinct btn-primary" role="button" aria-pressed="true" href="#Footer">Contact Me</a></li>
       </ul>
     </div>
     </div>
 
       <div class="sidebar container-fluid">
 
-        <ul class="nav sidenav nav-pills nav-stacked text-uppercase">
+        <ul class="nav sidenav nav-pills nav-stacked nav-ul text-uppercase">
           <li class="nav-item"><a href="#Overview">Overview</a></li>
           <li class="nav-item"><a href="#Experience">Experience</a><li>
           <li class="nav-item"><a href="#Skills">Skills</a><li>
           <li class="nav-item"><a href="#Projects">Projects</a><li>
-          <li class="nav-item"><a href="#Miscellaneous">Miscellaneous</a><li>
           <li class="nav-item"><a href="#Resume">Resume (PDF)</a><li>
         </ul>
+        <a class="btn btn-primary distinct-link" role="button" aria-pressed="true" href="#Footer">Contact Me</a>
+
 
 
       </div>
-
+      <div id="HomeLink"></div>
      <!--Route to project, home, or main view.-->
       <div ng-view></div>
 
 
     <!-- Modules -->
-    <script src="js/app.js"></script>
+    <script src="app.js"></script>
 
     <!-- Controllers -->
     <script src="js/controllers/HomeController.js"></script>

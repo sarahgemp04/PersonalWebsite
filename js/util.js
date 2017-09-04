@@ -3,7 +3,6 @@
   function setHeight() {
     windowHeight = $(window).innerHeight();
     $('#home-page').css('height', windowHeight);
-    console.log("wassuppp");
   };
 
   function setMargin() {
